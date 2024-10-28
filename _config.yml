@@ -5,7 +5,7 @@ url: "https://ksmith94.github.io"
 baseurl: ""  # If your site is in a subdirectory, specify the subdirectory name here
 
 # Theme and layout
-theme: jekyll-theme-minimal # or another GitHub-supported theme
+theme: jekyll-theme-cayman # or another GitHub-supported theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
