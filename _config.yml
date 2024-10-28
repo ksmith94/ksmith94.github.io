@@ -10,6 +10,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+custom_css: assets/css/styles.css
+
 # Customization options
 # These options depend on the theme you are using
 header:
