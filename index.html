@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kevin Smith | Portfolio</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -11,63 +13,126 @@
   <header>
     <h1>Kevin Smith</h1>
 		<div>
-			<span>Email: kevinsmith9413@gmail.com</span>
-			<span>Phone: (908) 418-6823</span>
-		</div>
-		<div>
-			<span>
-				Github: <a href="https://github.com/ksmith94">
-					https://github.com/ksmith94
+			<p>Email: kevinsmith9413@gmail.com</p>
+			<p>Phone: (908) 418-6823</p>
+			<p>
+				<a href="https://github.com/ksmith94">
+					Github
 				</a>
-			</span>
-			<span>LinkedIn: <a href="https://www.linkedin.com/in/kevin-smith9413">
-				https://www.linkedin.com/in/kevin-smith9413/
+			</p>
+			<p>
+				<a href="https://www.linkedin.com/in/kevin-smith9413">
+					LinkedIn
 			</a>
-		</span>
+		</p>
 		</div>
-    <p>Welcome to my portfolio website!</p>
   </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-			I am a self-taught software engineer, graduating at the top of my class from Modern University, where I learned directly from FAANG engineers. Prior to that, I worked in finance after graduating with a degree in economics from Lafayette College. I have skills and experience in:
-		</p>
-    <ul>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>SQL</li>
-      <li>Git</li>
-    </ul>
-  </section>
+	<div class="body">
+		<!-- About Section -->
+		<aside id="about">
+			<h2>About Me</h2>
+			<p>
+				I am a self-taught software engineer, graduating at the top of my class from Modern University, where I learned directly from FAANG engineers. Prior to that, I worked in finance after graduating with a degree in economics from Lafayette College. I have skills and experience in:
+			</p>
+			<ul>
+				<li>JavaScript</li>
+				<li>TypeScript</li>
+				<li>React</li>
+				<li>Node.js</li>
+				<li>SQL</li>
+				<li>Git</li>
+			</ul>
+		</aside>
+	
+	
+		<!-- Projects Section -->
+		<section id="projects">
+			<h2>Medplum Projects</h2>
+			<div class="project">
+				<h3>Medplum-Photon Integration</h3>
+				<div class="project-content">
+					<img src="assets/medplum-photon.png" class="image" alt='Patient page of the Medplum Photon integration app'/>
+					<div>
+						<p>
+							A starter app demonstrating an integration between Medplum and Photon Health, a prescription management system. The app allows you to sync your practice with Photon Health, create and manage prescriptions, and fulfill medication orders. Built using React and TypeScript.
+						</p>
+						
+						<p>
+							<a 
+								href="https://github.com/medplum/medplum/tree/main/examples/medplum-photon-integration" 
+								target="_blank">
+								View on GitHub
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="project">
+				<h3>Medplum Chat Demo</h3>
+				<div class="project-content">
+					<img src="assets/medplum-chat-demo.png" class="image" alt='Patient page of the Medplum chat demo app'/>
+					<div>
+						<p>
+							A demo app that implements Medplum's chat features, including messaging, viewing details of communications, and modeling the communication workflow.
+						</p>
+						<p>
+							<a 
+								href="https://github.com/medplum/medplum/tree/main/examples/medplum-chat-demo" 
+								target="_blank">
+								View on GitHub
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="project">
+				<h3>Medplum Charting Demo</h3>
+				<div class="project-content">
+					<img src="assets/medplum-chart-demo.png" class="image" alt='Patient page of the Medplum charting demo app'/>
+					<div>
+						<p>
+							A demo app showing how to implement a charting workflow for physicians by using Medplum. The app allows physicians to create patient encounters, record and save notes, and view a patient's vital signs.
+						</p>
+						<p>
+							<a 
+								href="https://github.com/medplum/medplum/tree/main/examples/medplum-chart-demo" 
+								target="_blank">
+								View on GitHub
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="project">
+				<h3>Medplum Task Demo</h3>
+				<div class="project-content">
+					<img src="assets/medplum-task-demo.png" class="image" alt='User page of the Medplum task demo app'/>
+					<div>
+						<p>
+							A demo app showing how to implement a medical task workflow for physicians using Medplum. The app allows allows users to view any tasks assigned to them, update/edit these tasks, and automate task assignment. 
+						</p>
+						<p>
+							<a 
+								href="https://github.com/medplum/medplum/tree/main/examples/medplum-task-demo" 
+								target="_blank">
+								View on GitHub
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project One</h3>
-      <p>A brief description of your project goes here. This could include the tools used and the goals you achieved.</p>
-      <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Project Two</h3>
-      <p>A brief description of your second project.</p>
-      <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to reach out to me at:</p>
-    <ul>
-      <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
-    </ul>
-  </section>
+	<footer>
+		<a href="https://github.com/ksmith94">
+			<i class="fa fa-github"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/kevin-smith9413">
+			<i class="fa fa-linkedin-square"></i>
+		</a>
+			<span>kevinsmith9413@gmail.com</span>
+	</footer>
 </body>
 </html>
