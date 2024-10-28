@@ -1,1 +1,31 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: "Kevin Smith's Portfolio"
+description: "A showcase of my projects, skills, and experience."
+url: "https://ksmith94.github.io"
+baseurl: ""  # If your site is in a subdirectory, specify the subdirectory name here
+
+# Theme and layout
+theme: jekyll-theme-minimal # or another GitHub-supported theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Customization options
+# These options depend on the theme you are using
+header:
+  title: "Kevin Smith"
+  tagline: "Software Developer"
+  image: "path/to/header-image.jpg"
+
+# Social links
+social_links:
+  github: https://github.com/ksmith94
+
+# Markdown processing
+markdown: kramdown
+
+# Exclude files and folders
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
